@@ -1,0 +1,59 @@
+# ContigOrdering file.  This file represents a ContigOrdering object, which describes an ordering of contigs within a Lachesis cluster.
+# See ContigOrdering.h for more documentation.
+#
+# Important numbers:
+#	N_contigs	249	(Number of contigs in the input cluster)
+#	N_contigs_used	48	(Number of contigs ordered by this ordering)
+#	has_Q_scores	1	(Boolean: has orientation quality scores?)
+#	has_gaps	0	(Boolean: have gap sizes between contigs been estimated?)
+#
+# Columns:
+#contig_ID(local)	contig_name	contig_rc	orientation_Q_score	gap_size_after_contig
+21	scaffold_1121	1	2.16843	.
+17	scaffold_753	1	1.96415	.
+71	scaffold_3602	0	0.266118	.
+42	scaffold_2074	0	4.67829	.
+151	scaffold_7643	1	0.853994	.
+84	scaffold_4126	0	2.17273	.
+23	scaffold_1232	0	2.5694	.
+96	scaffold_4668	1	0.975298	.
+62	scaffold_3176	1	0.855521	.
+76	scaffold_3803	1	1.5677	.
+148	scaffold_7369	1	0.897169	.
+83	scaffold_4107	1	0.651152	.
+161	scaffold_7909	0	0.784291	.
+13	scaffold_621	0	5.55946	.
+177	scaffold_9271	1	0.562419	.
+18	scaffold_828	1	2.246	.
+11	scaffold_479	1	4.59559	.
+165	scaffold_8336	0	0.282674	.
+87	scaffold_4330	1	1.9754	.
+69	scaffold_3516	0	1.88433	.
+60	scaffold_2911	1	0.542245	.
+127	scaffold_6075	1	0.0223869	.
+94	scaffold_4660	0	1.8114	.
+116	scaffold_5508	0	2.46471	.
+61	scaffold_2950	1	1.9831	.
+132	scaffold_6336	0	1.04901	.
+119	scaffold_5744	0	0.000456999	.
+106	scaffold_5068	1	3.52308	.
+142	scaffold_6737	1	3.72648	.
+78	scaffold_3957	1	0.902859	.
+178	scaffold_9338	0	0.452035	.
+70	scaffold_3552	1	0.833073	.
+122	scaffold_5778	0	1.0297	.
+125	scaffold_5931	1	0.890083	.
+118	scaffold_5676	1	1.28083	.
+140	scaffold_6685	0	1.62475	.
+158	scaffold_7860	0	0.151254	.
+81	scaffold_4053	0	3.15823	.
+147	scaffold_7278	0	0.845929	.
+90	scaffold_4392	1	0.902078	.
+45	scaffold_2246	0	5.59262	.
+171	scaffold_8548	1	0.256256	.
+109	scaffold_5362	0	2.52069	.
+160	scaffold_7905	1	2.99596	.
+146	scaffold_6959	1	1.70888	.
+64	scaffold_3346	1	0.259874	.
+97	scaffold_4679	1	1.63211	.
+36	scaffold_1773	1	1.1361	.

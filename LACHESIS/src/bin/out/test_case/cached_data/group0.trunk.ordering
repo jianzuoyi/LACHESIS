@@ -1,0 +1,65 @@
+# ContigOrdering file.  This file represents a ContigOrdering object, which describes an ordering of contigs within a Lachesis cluster.
+# See ContigOrdering.h for more documentation.
+#
+# Important numbers:
+#	N_contigs	829	(Number of contigs in the input cluster)
+#	N_contigs_used	54	(Number of contigs ordered by this ordering)
+#	has_Q_scores	1	(Boolean: has orientation quality scores?)
+#	has_gaps	0	(Boolean: have gap sizes between contigs been estimated?)
+#
+# Columns:
+#contig_ID(local)	contig_name	contig_rc	orientation_Q_score	gap_size_after_contig
+240	scaffold_2748	1	0.881722	.
+469	scaffold_5290	0	0.0185486	.
+674	scaffold_8730	0	0.203063	.
+245	scaffold_2798	1	1.97612	.
+434	scaffold_4950	0	1.03022	.
+280	scaffold_3181	1	1.10851	.
+523	scaffold_5888	0	0.737785	.
+228	scaffold_2625	0	0.789144	.
+601	scaffold_6928	1	1.2461	.
+580	scaffold_6583	0	2.10207	.
+520	scaffold_5860	0	2.17816	.
+662	scaffold_8166	1	1.98844	.
+507	scaffold_5713	0	0.853793	.
+498	scaffold_5563	0	1.86711	.
+309	scaffold_3517	1	1.87732	.
+503	scaffold_5666	1	0.907764	.
+442	scaffold_5032	0	0.122503	.
+663	scaffold_8171	0	0.317167	.
+546	scaffold_6115	0	1.15615	.
+625	scaffold_7215	0	1.0404	.
+414	scaffold_4786	0	1.06756	.
+566	scaffold_6343	0	1.46313	.
+543	scaffold_6091	1	1.92253	.
+500	scaffold_5588	1	1.73631	.
+657	scaffold_7926	0	0.19281	.
+439	scaffold_4981	1	1.38084	.
+555	scaffold_6214	1	2.47509	.
+496	scaffold_5536	0	0.593353	.
+577	scaffold_6519	0	0.125563	.
+547	scaffold_6122	1	0.92545	.
+342	scaffold_3850	1	0.959778	.
+333	scaffold_3707	1	0.209037	.
+616	scaffold_7107	1	0.4822	.
+334	scaffold_3748	1	3.71057	.
+204	scaffold_2414	0	3.16119	.
+320	scaffold_3619	0	1.27966	.
+603	scaffold_6934	1	1.72103	.
+361	scaffold_4033	1	0.359752	.
+482	scaffold_5404	0	0.490002	.
+664	scaffold_8189	0	0.380946	.
+125	scaffold_1584	0	0.294398	.
+508	scaffold_5714	1	1.34177	.
+306	scaffold_3470	0	0.602569	.
+223	scaffold_2578	0	0.379242	.
+160	scaffold_1933	1	1.24031	.
+659	scaffold_8006	0	0.0995595	.
+553	scaffold_6174	1	1.08745	.
+303	scaffold_3416	0	0.850872	.
+563	scaffold_6320	1	0.455485	.
+273	scaffold_3120	0	1.47944	.
+435	scaffold_4961	1	1.64853	.
+391	scaffold_4459	0	0.000469906	.
+77	scaffold_1061	0	0.561926	.
+502	scaffold_5654	0	0.347024	.

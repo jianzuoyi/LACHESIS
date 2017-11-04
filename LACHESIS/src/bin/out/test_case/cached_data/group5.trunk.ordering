@@ -1,0 +1,60 @@
+# ContigOrdering file.  This file represents a ContigOrdering object, which describes an ordering of contigs within a Lachesis cluster.
+# See ContigOrdering.h for more documentation.
+#
+# Important numbers:
+#	N_contigs	561	(Number of contigs in the input cluster)
+#	N_contigs_used	49	(Number of contigs ordered by this ordering)
+#	has_Q_scores	1	(Boolean: has orientation quality scores?)
+#	has_gaps	0	(Boolean: have gap sizes between contigs been estimated?)
+#
+# Columns:
+#contig_ID(local)	contig_name	contig_rc	orientation_Q_score	gap_size_after_contig
+269	scaffold_4527	1	0.096259	.
+266	scaffold_4506	0	0.946805	.
+9	scaffold_212	0	1.75761	.
+340	scaffold_6013	0	1.17367	.
+230	scaffold_3670	1	1.82437	.
+373	scaffold_6748	0	0.243984	.
+157	scaffold_2679	1	1.89129	.
+139	scaffold_2467	0	1.20245	.
+264	scaffold_4464	0	0.154266	.
+200	scaffold_3313	1	1.41065	.
+353	scaffold_6300	0	1.76486	.
+422	scaffold_8254	1	1.12488	.
+344	scaffold_6087	1	2.16001	.
+281	scaffold_4826	0	0.688145	.
+257	scaffold_4324	0	0.461495	.
+326	scaffold_5771	1	0.508062	.
+229	scaffold_3666	1	0.389187	.
+182	scaffold_3063	1	1.47967	.
+255	scaffold_4290	0	1.96732	.
+374	scaffold_6749	0	1.49189	.
+384	scaffold_6908	1	0.626715	.
+297	scaffold_5140	1	0.599937	.
+322	scaffold_5691	0	1.06312	.
+402	scaffold_7521	1	0.135448	.
+198	scaffold_3279	1	0.849319	.
+415	scaffold_7922	1	0.180646	.
+169	scaffold_2855	1	1.76434	.
+459	scaffold_9849	1	0.108208	.
+258	scaffold_4349	0	1.76485	.
+351	scaffold_6225	0	0.770296	.
+345	scaffold_6146	0	1.14171	.
+217	scaffold_3512	0	1.45835	.
+94	scaffold_1774	0	6.67549	.
+307	scaffold_5342	0	0.777851	.
+148	scaffold_2582	1	0.0665601	.
+304	scaffold_5303	1	0.109435	.
+427	scaffold_8527	0	1.37427	.
+44	scaffold_762	0	2.86191	.
+321	scaffold_5684	0	1.07517	.
+367	scaffold_6663	0	0.386159	.
+287	scaffold_4939	1	0.700246	.
+254	scaffold_4287	1	0.610179	.
+296	scaffold_5125	0	1.71228	.
+206	scaffold_3369	1	1.30569	.
+401	scaffold_7517	1	0.437755	.
+96	scaffold_1848	1	1.04115	.
+144	scaffold_2531	1	0.840476	.
+77	scaffold_1419	1	2.64074	.
+371	scaffold_6731	1	0.46673	.

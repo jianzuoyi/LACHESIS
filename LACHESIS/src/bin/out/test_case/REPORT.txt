@@ -1,0 +1,129 @@
+SPECIES = human
+OUTPUT_DIR = out/test_case
+DRAFT_ASSEMBLY_FASTA = test_case/draft_assembly/assembly.fasta
+SAM_DIR = test_case/SAMs
+SAM_FILES = SRR400260.sample.bam SRR400261.sample.bam SRR400262.sample.bam SRR400263.sample.bam SRR442155.sample.bam SRR442156.sample.bam SRR442157.sample.bam
+RE_SITE_SEQ = AAGCTT
+USE_REFERENCE = 1
+SIM_BIN_SIZE = 0
+REF_ASSEMBLY_FASTA = test_case/hg19/Homo_sapiens_assembly19.fasta
+BLAST_FILE_HEAD = test_case/draft_assembly/assembly
+DO_CLUSTERING = 1
+DO_ORDERING   = 1
+DO_REPORTING  = 1
+OVERWRITE_GLM = 0
+OVERWRITE_CLMS = 0
+CLUSTER_N = 23
+CLUSTER_CONTIGS_WITH_CENS = -1
+CLUSTER_MIN_RE_SITES = 25
+CLUSTER_MAX_LINK_DENSITY = 2
+CLUSTER_NONINFORMATIVE_RATIO = 3
+CLUSTER_DRAW_HEATMAP = 1
+CLUSTER_DRAW_DOTPLOT = 1
+ORDER_MIN_N_RES_IN_TRUNK = 15
+ORDER_MIN_N_RES_IN_SHREDS = 15
+ORDER_DRAW_DOTPLOTS = 1
+REPORT_EXCLUDED_GROUPS = -1
+REPORT_QUALITY_FILTER = 1
+REPORT_DRAW_HEATMAP = 1
+
+
+
+
+
+ReportChart!
+
+Info about input assembly:
+DE NOVO ASSEMBLY, reference genome available for validation
+Species: human
+N chromosomes in reference, including non-canonical:	85
+N contigs:	18921		Total length:	2739496430		N50:	445188
+N clusters (derived):		23
+N non-singleton clusters:	23
+N orderings found:		23
+
+
+############################
+#                          #
+#    CLUSTERING METRICS    #
+#                          #
+############################
+
+
+Number of contigs in clusters:	9713		(51.33% of all contigs)
+Length of contigs in clusters:	2514313691	(91.78% of all sequence length)
+
++---------+----------------+---------+---------------+------------------+-------------+-------------------+----------------------+
+| CLUSTER |   PLURALITY    | Number of contigs in cluster...            | Length of contigs in cluster...                        |
+| NUMBER  |   CHROMOSOME   |  TOTAL  |   UNALIGNED   | WRONG CHROMOSOME |    TOTAL    |     UNALIGNED     |   WRONG CHROMOSOME   |
++---------+----------------+---------+---------------+------------------+-------------+-------------------+----------------------+
+|     0   |       3        |    829  |   14 (  1.69%)|   328  ( 40.25%) |   215055557 |   273638 ( 0.127%)|  76493840  (35.615%) |
+|     1   |       1        |    722  |   11 (  1.52%)|   307  ( 43.18%) |   210152345 |   101901 ( 0.048%)|  79499573  (37.848%) |
+|     2   |       2        |    697  |   12 (  1.72%)|   227  ( 33.14%) |   190207245 |    69625 ( 0.037%)|  45499247  (23.930%) |
+|     3   |       4        |    731  |    8 (  1.09%)|   230  ( 31.81%) |   184495613 |    40652 ( 0.022%)|  53872432  (29.206%) |
+|     4   |       5        |    636  |    7 (  1.10%)|   293  ( 46.58%) |   160589915 |    47572 ( 0.030%)|  70857247  (44.136%) |
+|     5   |       6        |    561  |    4 (  0.71%)|   219  ( 39.32%) |   147855071 |    15841 ( 0.011%)|  48153199  (32.571%) |
+|     6   |       8        |    549  |    7 (  1.28%)|   245  ( 45.20%) |   140529099 |    30935 ( 0.022%)|  54165659  (38.553%) |
+|     7   |       7        |    494  |   11 (  2.23%)|   163  ( 33.75%) |   131847808 |    81723 ( 0.062%)|  39439859  (29.932%) |
+|     8   |       16       |    382  |    7 (  1.83%)|   309  ( 82.40%) |   115363526 |    44805 ( 0.039%)|  90963277  (78.880%) |
+|     9   |       18       |    391  |   12 (  3.07%)|   255  ( 67.28%) |   111168790 |    64105 ( 0.058%)|  57617143  (51.858%) |
+|    10   |       13       |    358  |    5 (  1.40%)|   166  ( 47.03%) |   110901988 |    70307 ( 0.063%)|  32828492  (29.620%) |
+|    11   |       10       |    347  |    8 (  2.31%)|   138  ( 40.71%) |    97550742 |    84131 ( 0.086%)|  28975634  (29.729%) |
+|    12   |       12       |    318  |    5 (  1.57%)|   126  ( 40.26%) |    86176855 |    31104 ( 0.036%)|  27242326  (31.624%) |
+|    13   |       14       |    359  |    7 (  1.95%)|   196  ( 55.68%) |    86108709 |    68231 ( 0.079%)|  43978921  (51.114%) |
+|    14   |       11       |    334  |    4 (  1.20%)|   146  ( 44.24%) |    73349710 |    15883 ( 0.022%)|  27332039  (37.271%) |
+|    15   |       15       |    271  |    3 (  1.11%)|   185  ( 69.03%) |    67531244 |    81789 ( 0.121%)|  36831478  (54.606%) |
+|    16   |       9        |    279  |    5 (  1.79%)|   173  ( 63.14%) |    66139242 |    84078 ( 0.127%)|  31294591  (47.376%) |
+|    17   |       9        |    291  |    5 (  1.72%)|   157  ( 54.90%) |    61791260 |   188281 ( 0.305%)|  32363502  (52.536%) |
+|    18   |       20       |    218  |    5 (  2.29%)|   186  ( 87.32%) |    59238125 |    88131 ( 0.149%)|  43725087  (73.922%) |
+|    19   |       5        |    249  |    3 (  1.20%)|   117  ( 47.56%) |    56200253 |    30325 ( 0.054%)|  21276470  (37.879%) |
+|    20   |       21       |    208  |    5 (  2.40%)|   160  ( 78.82%) |    53537756 |    60259 ( 0.113%)|  30960071  (57.894%) |
+|    21   |       X        |    251  |    4 (  1.59%)|    58  ( 23.48%) |    46404485 |    31976 ( 0.069%)|  11028672  (23.783%) |
+|    22   |       19       |    238  |    3 (  1.26%)|   177  ( 75.32%) |    42118353 |    27357 ( 0.065%)|  32805014  (77.938%) |
++---------+----------------+---------+---------------+------------------+-------------+-------------------+----------------------+
+|       TOTAL              |   9713  |  155 (  1.60%)|  4561  ( 47.72%) |  2514313691 |  1632649 ( 0.065%)| 1017203773  (40.483%) |
++---------+----------------+---------+---------------+------------------+-------------+-------------------+----------------------+
+
+
+############################
+#                          #
+#     ORDERING METRICS     #
+#                          #
+############################
+
+
+Number of contigs in orderings:	7222		(74.35% of all contigs in clusters, 38.17% of all contigs)
+Length of contigs in orderings:	2464607695	(98.02% of all length in clusters, 89.97% of all sequence length)
+Number of contigs in trunks:	1166		(16.15% of contigs in orderings)
+Length of contigs in trunks:	278995953	(11.32% of length in orderings)
+
+Fraction of contigs in orderings with high orientation quality:	3665 (50.75%), with length 1558392168 (63.23%)
+Fraction of contigs in trunks    with high orientation quality:	562 (48.2%), with length 165381936 (59.28%)
+
++-------------+---------------------------+--------------+--------------+
+| TRUNK/FULL? |  ERROR TYPE               |  % CONTIGS   |   % LENGTH   |
++-------------+---------------------------+--------------+--------------+
+|  TRUNK      | Inter-chromosome errors   |     21.78%   |     22.37%   |
+|  TRUNK      | Ordering errors           |     34.13%   |     31.29%   |
+|  TRUNK      | Ordering errors    (HQ)   |     35.23%   |     31.92%   |
+|  TRUNK      | Orientation errors        |     36.88%   |     32.67%   |
+|  TRUNK      | Orientation errors (HQ)   |     35.05%   |     29.84%   |
++-------------+---------------------------+--------------+--------------+
+|  FULL ORDER | Inter-chromosome errors   |     36.54%   |     37.47%   |
+|  FULL ORDER | Ordering errors           |     30.26%   |     28.88%   |
+|  FULL ORDER | Ordering errors    (HQ)   |     31.16%   |     29.53%   |
+|  FULL ORDER | Orientation errors        |     30.71%   |     26.56%   |
+|  FULL ORDER | Orientation errors (HQ)   |     29.03%   |     24.58%   |
++-------------+---------------------------+--------------+--------------+
+
+
+###################################
+
+Definitions:
+'Plurality chromosome':		The plurality chromosome for a cluster is the chromosome that contains the most contigs (by length!) in that cluster.
+				Contigs are considered mis-clustered if they align to a canonical chromosome other than the plurality chromosome.
+'Inter-chromosome error':	Two contigs are adjacent in an ordering but align to different canonical chromosomes.
+'Ordering error':		Three contigs are adjacent in an ordering, but their relative position in the ordering doesn't match the relative positions of their true alignments.
+'Orientation error':		A contig's assigned orientation in its ordering doesn't match the orientation it should have, imputed from its and its neighbors' true alignment position.
+
+

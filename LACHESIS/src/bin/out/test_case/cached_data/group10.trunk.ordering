@@ -1,0 +1,61 @@
+# ContigOrdering file.  This file represents a ContigOrdering object, which describes an ordering of contigs within a Lachesis cluster.
+# See ContigOrdering.h for more documentation.
+#
+# Important numbers:
+#	N_contigs	358	(Number of contigs in the input cluster)
+#	N_contigs_used	50	(Number of contigs ordered by this ordering)
+#	has_Q_scores	1	(Boolean: has orientation quality scores?)
+#	has_gaps	0	(Boolean: have gap sizes between contigs been estimated?)
+#
+# Columns:
+#contig_ID(local)	contig_name	contig_rc	orientation_Q_score	gap_size_after_contig
+1	scaffold_17	1	16.029	.
+39	scaffold_713	0	7.47134	.
+158	scaffold_3482	1	2.47808	.
+147	scaffold_3241	1	4.1436	.
+98	scaffold_2129	1	1.23918	.
+180	scaffold_4211	0	0.288116	.
+225	scaffold_6093	1	0.445089	.
+188	scaffold_4561	0	2.318	.
+126	scaffold_2813	1	0.920071	.
+206	scaffold_5120	0	0.548106	.
+78	scaffold_1547	0	0.28813	.
+230	scaffold_6596	1	0.940221	.
+241	scaffold_7135	0	1.71882	.
+215	scaffold_5462	1	0.648694	.
+90	scaffold_1781	0	0.357659	.
+248	scaffold_7475	1	0.0192708	.
+125	scaffold_2810	0	3.94012	.
+152	scaffold_3413	1	3.94701	.
+242	scaffold_7136	0	0.482241	.
+221	scaffold_5958	0	0.541116	.
+197	scaffold_4873	0	0.238462	.
+140	scaffold_3148	0	0.267758	.
+138	scaffold_3106	1	1.65759	.
+255	scaffold_7828	1	0.05123	.
+36	scaffold_629	1	1.25044	.
+159	scaffold_3483	1	0.106071	.
+194	scaffold_4739	1	3.97638	.
+142	scaffold_3207	0	7.52028	.
+99	scaffold_2135	0	3.73269	.
+227	scaffold_6202	0	0.5422	.
+200	scaffold_4958	1	3.31471	.
+193	scaffold_4690	0	2.19603	.
+37	scaffold_653	1	4.40599	.
+279	scaffold_9325	1	0.401475	.
+44	scaffold_791	1	2.51056	.
+54	scaffold_1093	1	5.84749	.
+190	scaffold_4583	1	1.83233	.
+191	scaffold_4606	0	1.58056	.
+31	scaffold_529	0	2.32361	.
+133	scaffold_2908	0	0	.
+79	scaffold_1548	0	2.05066	.
+170	scaffold_3852	0	2.46809	.
+250	scaffold_7548	0	0.0426606	.
+66	scaffold_1283	0	5.49126	.
+218	scaffold_5812	0	1.08316	.
+168	scaffold_3836	1	0.178199	.
+207	scaffold_5142	0	0.161859	.
+6	scaffold_107	1	4.756	.
+27	scaffold_504	1	2.64364	.
+97	scaffold_2038	0	1.7908	.
