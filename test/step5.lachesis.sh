@@ -1,4 +1,4 @@
-export PATH=/its1/GB_BT2/jianzuoyi/pipeline/biosoft/01.Assembly/LACHESIS/LACHESIS/src/bin:$PATH
+export PATH=/its1/GB_BT2/jianzuoyi/biosoft/LACHESIS/LACHESIS/src/bin:$PATH
 
 cd LACHESIS
 make clean
