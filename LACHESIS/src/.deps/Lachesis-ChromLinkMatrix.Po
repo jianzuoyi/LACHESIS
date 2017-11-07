@@ -1720,9 +1720,9 @@ Lachesis-ChromLinkMatrix.o: ChromLinkMatrix.cc /usr/include/stdc-predef.h \
  /usr/include/boost/numeric/ublas/matrix_expression.hpp \
  /usr/include/boost/numeric/ublas/detail/matrix_assign.hpp \
  /usr/include/boost/numeric/ublas/matrix.hpp \
- /its1/GB_BT2/jianzuoyi/pipeline/biosoft/01.Assembly/LACHESIS/src/samtools-0.1.19/sam.h \
- /its1/GB_BT2/jianzuoyi/pipeline/biosoft/01.Assembly/LACHESIS/src/samtools-0.1.19/bam.h \
- /its1/GB_BT2/jianzuoyi/pipeline/biosoft/01.Assembly/LACHESIS/src/samtools-0.1.19/bgzf.h \
+ /its1/GB_BT2/jianzuoyi/biosoft/LACHESIS/LACHESIS/src/samtools-0.1.19/sam.h \
+ /its1/GB_BT2/jianzuoyi/biosoft/LACHESIS/LACHESIS/src/samtools-0.1.19/bam.h \
+ /its1/GB_BT2/jianzuoyi/biosoft/LACHESIS/LACHESIS/src/samtools-0.1.19/bgzf.h \
  /usr/include/zlib.h /usr/include/zconf.h include/gtools/SAMStepper.h \
  include/markov/WDAG.h ChromLinkMatrix.h ClusterVec.h \
  /usr/include/inttypes.h ContigOrdering.h TrueMapping.h \
@@ -5408,11 +5408,11 @@ Lachesis-ChromLinkMatrix.o: ChromLinkMatrix.cc /usr/include/stdc-predef.h \
 
 /usr/include/boost/numeric/ublas/matrix.hpp:
 
-/its1/GB_BT2/jianzuoyi/pipeline/biosoft/01.Assembly/LACHESIS/src/samtools-0.1.19/sam.h:
+/its1/GB_BT2/jianzuoyi/biosoft/LACHESIS/LACHESIS/src/samtools-0.1.19/sam.h:
 
-/its1/GB_BT2/jianzuoyi/pipeline/biosoft/01.Assembly/LACHESIS/src/samtools-0.1.19/bam.h:
+/its1/GB_BT2/jianzuoyi/biosoft/LACHESIS/LACHESIS/src/samtools-0.1.19/bam.h:
 
-/its1/GB_BT2/jianzuoyi/pipeline/biosoft/01.Assembly/LACHESIS/src/samtools-0.1.19/bgzf.h:
+/its1/GB_BT2/jianzuoyi/biosoft/LACHESIS/LACHESIS/src/samtools-0.1.19/bgzf.h:
 
 /usr/include/zlib.h:
 

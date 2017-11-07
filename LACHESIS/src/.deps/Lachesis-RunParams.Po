@@ -719,9 +719,9 @@ Lachesis-RunParams.o: RunParams.cc /usr/include/stdc-predef.h RunParams.h \
  /usr/include/boost/math/tools/real_cast.hpp \
  /usr/include/boost/container/container_fwd.hpp \
  include/gtools/SAMStepper.h \
- /its1/GB_BT2/jianzuoyi/pipeline/biosoft/01.Assembly/LACHESIS/src/samtools-0.1.19/sam.h \
- /its1/GB_BT2/jianzuoyi/pipeline/biosoft/01.Assembly/LACHESIS/src/samtools-0.1.19/bam.h \
- /its1/GB_BT2/jianzuoyi/pipeline/biosoft/01.Assembly/LACHESIS/src/samtools-0.1.19/bgzf.h \
+ /its1/GB_BT2/jianzuoyi/biosoft/LACHESIS/LACHESIS/src/samtools-0.1.19/sam.h \
+ /its1/GB_BT2/jianzuoyi/biosoft/LACHESIS/LACHESIS/src/samtools-0.1.19/bam.h \
+ /its1/GB_BT2/jianzuoyi/biosoft/LACHESIS/LACHESIS/src/samtools-0.1.19/bgzf.h \
  /usr/include/zlib.h /usr/include/zconf.h include/TimeMem.h
 
 /usr/include/stdc-predef.h:
@@ -2364,11 +2364,11 @@ TextFileParsers.h:
 
 include/gtools/SAMStepper.h:
 
-/its1/GB_BT2/jianzuoyi/pipeline/biosoft/01.Assembly/LACHESIS/src/samtools-0.1.19/sam.h:
+/its1/GB_BT2/jianzuoyi/biosoft/LACHESIS/LACHESIS/src/samtools-0.1.19/sam.h:
 
-/its1/GB_BT2/jianzuoyi/pipeline/biosoft/01.Assembly/LACHESIS/src/samtools-0.1.19/bam.h:
+/its1/GB_BT2/jianzuoyi/biosoft/LACHESIS/LACHESIS/src/samtools-0.1.19/bam.h:
 
-/its1/GB_BT2/jianzuoyi/pipeline/biosoft/01.Assembly/LACHESIS/src/samtools-0.1.19/bgzf.h:
+/its1/GB_BT2/jianzuoyi/biosoft/LACHESIS/LACHESIS/src/samtools-0.1.19/bgzf.h:
 
 /usr/include/zlib.h:
 

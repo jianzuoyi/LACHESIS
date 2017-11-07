@@ -105,11 +105,11 @@ Lachesis-LinkSizeDistribution.o: LinkSizeDistribution.cc \
  /usr/include/c++/4.8.2/bits/stl_heap.h \
  /usr/include/c++/4.8.2/bits/stl_tempbuf.h include/TimeMem.h \
  include/gtools/SAMStepper.h \
- /its1/GB_BT2/jianzuoyi/pipeline/biosoft/01.Assembly/LACHESIS/src/samtools-0.1.19/sam.h \
- /its1/GB_BT2/jianzuoyi/pipeline/biosoft/01.Assembly/LACHESIS/src/samtools-0.1.19/bam.h \
+ /its1/GB_BT2/jianzuoyi/biosoft/LACHESIS/LACHESIS/src/samtools-0.1.19/sam.h \
+ /its1/GB_BT2/jianzuoyi/biosoft/LACHESIS/LACHESIS/src/samtools-0.1.19/bam.h \
  /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdint.h \
  /usr/include/stdint.h /usr/include/string.h \
- /its1/GB_BT2/jianzuoyi/pipeline/biosoft/01.Assembly/LACHESIS/src/samtools-0.1.19/bgzf.h \
+ /its1/GB_BT2/jianzuoyi/biosoft/LACHESIS/LACHESIS/src/samtools-0.1.19/bgzf.h \
  /usr/include/zlib.h /usr/include/zconf.h /usr/include/unistd.h \
  /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
  /usr/include/bits/confname.h /usr/include/getopt.h \
@@ -931,9 +931,9 @@ include/TimeMem.h:
 
 include/gtools/SAMStepper.h:
 
-/its1/GB_BT2/jianzuoyi/pipeline/biosoft/01.Assembly/LACHESIS/src/samtools-0.1.19/sam.h:
+/its1/GB_BT2/jianzuoyi/biosoft/LACHESIS/LACHESIS/src/samtools-0.1.19/sam.h:
 
-/its1/GB_BT2/jianzuoyi/pipeline/biosoft/01.Assembly/LACHESIS/src/samtools-0.1.19/bam.h:
+/its1/GB_BT2/jianzuoyi/biosoft/LACHESIS/LACHESIS/src/samtools-0.1.19/bam.h:
 
 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdint.h:
 
@@ -941,7 +941,7 @@ include/gtools/SAMStepper.h:
 
 /usr/include/string.h:
 
-/its1/GB_BT2/jianzuoyi/pipeline/biosoft/01.Assembly/LACHESIS/src/samtools-0.1.19/bgzf.h:
+/its1/GB_BT2/jianzuoyi/biosoft/LACHESIS/LACHESIS/src/samtools-0.1.19/bgzf.h:
 
 /usr/include/zlib.h:
 

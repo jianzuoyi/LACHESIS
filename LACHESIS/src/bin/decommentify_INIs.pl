@@ -1,6 +1,7 @@
 #!/usr/bin/perl -w
 use strict;
 
+=pod
 ///////////////////////////////////////////////////////////////////////////////
 //                                                                           //
 // This software and its documentation are copyright (c) 2014-2015 by Joshua //
@@ -15,7 +16,7 @@ use strict;
 // THE USE OR OTHER DEALINGS IN THE SOFTWARE.                                //
 //                                                                           //
 ///////////////////////////////////////////////////////////////////////////////
-
+=cut
 
 # decommentify_INI.pl
 #

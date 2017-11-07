@@ -634,9 +634,9 @@ Lachesis-TrueMapping.o: TrueMapping.cc /usr/include/stdc-predef.h \
  /usr/include/c++/4.8.2/bits/fstream.tcc include/gtools/ChromInterval.h \
  include/gtools/VCF_variant_info.h /usr/include/boost/logic/tribool.hpp \
  /usr/include/boost/logic/tribool_fwd.hpp include/gtools/SAMStepper.h \
- /its1/GB_BT2/jianzuoyi/pipeline/biosoft/01.Assembly/LACHESIS/src/samtools-0.1.19/sam.h \
- /its1/GB_BT2/jianzuoyi/pipeline/biosoft/01.Assembly/LACHESIS/src/samtools-0.1.19/bam.h \
- /its1/GB_BT2/jianzuoyi/pipeline/biosoft/01.Assembly/LACHESIS/src/samtools-0.1.19/bgzf.h \
+ /its1/GB_BT2/jianzuoyi/biosoft/LACHESIS/LACHESIS/src/samtools-0.1.19/sam.h \
+ /its1/GB_BT2/jianzuoyi/biosoft/LACHESIS/LACHESIS/src/samtools-0.1.19/bam.h \
+ /its1/GB_BT2/jianzuoyi/biosoft/LACHESIS/LACHESIS/src/samtools-0.1.19/bgzf.h \
  /usr/include/zlib.h /usr/include/zconf.h
 
 /usr/include/stdc-predef.h:
@@ -2113,11 +2113,11 @@ include/gtools/VCF_variant_info.h:
 
 include/gtools/SAMStepper.h:
 
-/its1/GB_BT2/jianzuoyi/pipeline/biosoft/01.Assembly/LACHESIS/src/samtools-0.1.19/sam.h:
+/its1/GB_BT2/jianzuoyi/biosoft/LACHESIS/LACHESIS/src/samtools-0.1.19/sam.h:
 
-/its1/GB_BT2/jianzuoyi/pipeline/biosoft/01.Assembly/LACHESIS/src/samtools-0.1.19/bam.h:
+/its1/GB_BT2/jianzuoyi/biosoft/LACHESIS/LACHESIS/src/samtools-0.1.19/bam.h:
 
-/its1/GB_BT2/jianzuoyi/pipeline/biosoft/01.Assembly/LACHESIS/src/samtools-0.1.19/bgzf.h:
+/its1/GB_BT2/jianzuoyi/biosoft/LACHESIS/LACHESIS/src/samtools-0.1.19/bgzf.h:
 
 /usr/include/zlib.h:
 

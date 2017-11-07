@@ -583,10 +583,10 @@ Lachesis-Reporter.o: Reporter.cc /usr/include/stdc-predef.h Reporter.h \
  /usr/include/c++/4.8.2/bits/fstream.tcc /usr/include/c++/4.8.2/iomanip \
  /usr/include/c++/4.8.2/numeric /usr/include/c++/4.8.2/bits/stl_numeric.h \
  include/TimeMem.h include/gtools/N50.h include/gtools/SAMStepper.h \
- /its1/GB_BT2/jianzuoyi/pipeline/biosoft/01.Assembly/LACHESIS/src/samtools-0.1.19/sam.h \
- /its1/GB_BT2/jianzuoyi/pipeline/biosoft/01.Assembly/LACHESIS/src/samtools-0.1.19/bam.h \
+ /its1/GB_BT2/jianzuoyi/biosoft/LACHESIS/LACHESIS/src/samtools-0.1.19/sam.h \
+ /its1/GB_BT2/jianzuoyi/biosoft/LACHESIS/LACHESIS/src/samtools-0.1.19/bam.h \
  /usr/include/string.h \
- /its1/GB_BT2/jianzuoyi/pipeline/biosoft/01.Assembly/LACHESIS/src/samtools-0.1.19/bgzf.h \
+ /its1/GB_BT2/jianzuoyi/biosoft/LACHESIS/LACHESIS/src/samtools-0.1.19/bgzf.h \
  /usr/include/zlib.h /usr/include/zconf.h \
  /usr/include/boost/lexical_cast.hpp /usr/include/c++/4.8.2/cstring \
  /usr/include/c++/4.8.2/typeinfo \
@@ -2088,13 +2088,13 @@ include/gtools/N50.h:
 
 include/gtools/SAMStepper.h:
 
-/its1/GB_BT2/jianzuoyi/pipeline/biosoft/01.Assembly/LACHESIS/src/samtools-0.1.19/sam.h:
+/its1/GB_BT2/jianzuoyi/biosoft/LACHESIS/LACHESIS/src/samtools-0.1.19/sam.h:
 
-/its1/GB_BT2/jianzuoyi/pipeline/biosoft/01.Assembly/LACHESIS/src/samtools-0.1.19/bam.h:
+/its1/GB_BT2/jianzuoyi/biosoft/LACHESIS/LACHESIS/src/samtools-0.1.19/bam.h:
 
 /usr/include/string.h:
 
-/its1/GB_BT2/jianzuoyi/pipeline/biosoft/01.Assembly/LACHESIS/src/samtools-0.1.19/bgzf.h:
+/its1/GB_BT2/jianzuoyi/biosoft/LACHESIS/LACHESIS/src/samtools-0.1.19/bgzf.h:
 
 /usr/include/zlib.h:
 
